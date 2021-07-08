@@ -10,6 +10,7 @@
 		8754DD6126978F6B006DEAD9 /* HibridPlayerIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8754DD5F26978F6B006DEAD9 /* HibridPlayerIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8754DD71269795D4006DEAD9 /* HibridPlayerIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8754DD70269795D4006DEAD9 /* HibridPlayerIOS.swift */; };
 		8754DDAD2697BDAE006DEAD9 /* HibridStreamPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8754DDAA2697BDA6006DEAD9 /* HibridStreamPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5FC22F3CC8BEA9819DE5C7F /* Pods_HibridPlayerIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F93E8E9A4A77C5D3F1C813 /* Pods_HibridPlayerIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7BAF8A956FD2698834A3745E /* Pods-HibridPlayerIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HibridPlayerIOS.debug.xcconfig"; path = "Target Support Files/Pods-HibridPlayerIOS/Pods-HibridPlayerIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8754DD5C26978F6B006DEAD9 /* HibridPlayerIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HibridPlayerIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8754DD5F26978F6B006DEAD9 /* HibridPlayerIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HibridPlayerIOS.h; sourceTree = "<group>"; };
 		8754DD6026978F6B006DEAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8754DD70269795D4006DEAD9 /* HibridPlayerIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HibridPlayerIOS.swift; sourceTree = "<group>"; };
 		8754DDAA2697BDA6006DEAD9 /* HibridStreamPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HibridStreamPlayer.framework; sourceTree = "<group>"; };
+		96F93E8E9A4A77C5D3F1C813 /* Pods_HibridPlayerIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HibridPlayerIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA77D6C5DE3A14DCFEE3BFFC /* Pods-HibridPlayerIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HibridPlayerIOS.release.xcconfig"; path = "Target Support Files/Pods-HibridPlayerIOS/Pods-HibridPlayerIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FC22F3CC8BEA9819DE5C7F /* Pods_HibridPlayerIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +56,7 @@
 				8754DD5E26978F6B006DEAD9 /* HibridPlayerIOS */,
 				8754DD5D26978F6B006DEAD9 /* Products */,
 				8754DD6726979141006DEAD9 /* Frameworks */,
+				CE8E60958C40EA1C41A1C28F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,8 +82,18 @@
 		8754DD6726979141006DEAD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96F93E8E9A4A77C5D3F1C813 /* Pods_HibridPlayerIOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8E60958C40EA1C41A1C28F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BAF8A956FD2698834A3745E /* Pods-HibridPlayerIOS.debug.xcconfig */,
+				FA77D6C5DE3A14DCFEE3BFFC /* Pods-HibridPlayerIOS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +114,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8754DD6426978F6B006DEAD9 /* Build configuration list for PBXNativeTarget "HibridPlayerIOS" */;
 			buildPhases = (
+				1AA81B73E99AF3EB09419ABB /* [CP] Check Pods Manifest.lock */,
 				8754DD5726978F6B006DEAD9 /* Headers */,
 				8754DD5826978F6B006DEAD9 /* Sources */,
 				8754DD5926978F6B006DEAD9 /* Frameworks */,
@@ -154,6 +171,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA81B73E99AF3EB09419ABB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HibridPlayerIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8754DD5826978F6B006DEAD9 /* Sources */ = {
@@ -223,6 +265,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-Xcc -Wno-error=non-modular-include-in-framework-module";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -280,6 +324,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-Xcc -Wno-error=non-modular-include-in-framework-module";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -291,6 +337,7 @@
 		};
 		8754DD6526978F6B006DEAD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BAF8A956FD2698834A3745E /* Pods-HibridPlayerIOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -314,7 +361,8 @@
 					"@loader_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = eivolo.HibridPlayerIOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -327,6 +375,7 @@
 		};
 		8754DD6626978F6B006DEAD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA77D6C5DE3A14DCFEE3BFFC /* Pods-HibridPlayerIOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -350,7 +399,8 @@
 					"@loader_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = eivolo.HibridPlayerIOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
