@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name             = 'HibridPlayerIOS'  
-s.version          = '0.0.4'  
+s.version          = '0.0.5'  
 s.summary          = 'HibridPlayerIOS' 
 # s.description      = <<-DESC 
 # 			"HibridPlayerIOS"
@@ -15,12 +15,14 @@ s.source           = { :git => 'https://github.com/Bo-Bogdan/HibridPlayerIOS.git
 
 s.platforms = { :ios => "13.0" }
 s.swift_version = "5.0"
-s.source_files  = "**/*.swift", "**/*.h", "**/*.framework"
+s.source_files  = "**/*.swift", "**/*.h"
 s.resources = "**/*.xib", "**/*.png"
 s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-s.preserve_paths = '**/*.modulemap'
+s.vendored_frameworks = '**/HibridStreamPlayer.framework'
+s.preserve_paths = '**/HibridStreamPlayer.framework'
+# s.preserve_paths = '**/*.modulemap'
 
 s.static_framework = true
 s.requires_arc = true
