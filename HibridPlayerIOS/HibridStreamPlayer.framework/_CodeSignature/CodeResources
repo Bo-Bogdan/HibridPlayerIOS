@@ -10,23 +10,23 @@
 		</data>
 		<key>Headers/HibridStreamPlayer.h</key>
 		<data>
-		ZCM2yPTF2r8K0alT8tg5H+tCPRg=
+		3DvpL3ZkQ74DMQ609+vjdXhlh+0=
 		</data>
 		<key>HibridPlayerView.nib</key>
 		<data>
-		nCBSBofR37jsXSnKobOpwL8y0u4=
+		gb9BBtTxyWgudM0EnsU0q7YAkrg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/58irmxXfPuRmk0JGFFwg6KNUIQ=
+		HBI5TcFI7YutcaWC5e4T3G93gfE=
 		</data>
 		<key>Modules/HibridStreamPlayer.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		zSuS7hhV53XmsnMbM7N6xS1O/I8=
+		rp5XuO82HzGy/GY4WnkSos2rrl8=
 		</data>
 		<key>Modules/HibridStreamPlayer.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		zSuS7hhV53XmsnMbM7N6xS1O/I8=
+		rp5XuO82HzGy/GY4WnkSos2rrl8=
 		</data>
 		<key>Modules/HibridStreamPlayer.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/HibridStreamPlayer.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wzQQqYEObadvSRvN5uSjAIEkJfA=
+		CaHGsypdxpua0J1FD6mZ6Icd/xc=
 		</data>
 		<key>Modules/HibridStreamPlayer.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/HibridStreamPlayer.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		wzQQqYEObadvSRvN5uSjAIEkJfA=
+		CaHGsypdxpua0J1FD6mZ6Icd/xc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,28 +70,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hOYEb8FThLqiTONgJBzYV2RJWU8rkfdLfF7/FXEsNgQ=
+			w0ddHQTfb1vD4uuleeAwaIoYvjA5wDFaFpgRg0T1tR0=
 			</data>
 		</dict>
 		<key>HibridPlayerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rnoRvlnH9NhZBosQQFWEQJtSfNB6Nz8LYuS34P4K+PY=
+			W7otH5zq9OH5rvbmzOjPLgRKCUtMvGlKyardhqDLODw=
 			</data>
 		</dict>
 		<key>Modules/HibridStreamPlayer.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IAHVLmjt3tHXr+UFHXYGym4InP3Lm4fbA02stuc/NoY=
+			n+RpWWBykNUQCjS640ZPM4EP0hw+7XdLWYFkKY4J8ps=
 			</data>
 		</dict>
 		<key>Modules/HibridStreamPlayer.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IAHVLmjt3tHXr+UFHXYGym4InP3Lm4fbA02stuc/NoY=
+			n+RpWWBykNUQCjS640ZPM4EP0hw+7XdLWYFkKY4J8ps=
 			</data>
 		</dict>
 		<key>Modules/HibridStreamPlayer.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3qA3HcVdG7FYgvVLnkR3OJ2FXi4PO3Fi6tDMIKkzBU=
+			w9bBOoeCj/BIb2bQeOrkvjGj95fG1fSN8YloBuZZ4KM=
 			</data>
 		</dict>
 		<key>Modules/HibridStreamPlayer.swiftmodule/arm64.swiftdoc</key>
@@ -119,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3qA3HcVdG7FYgvVLnkR3OJ2FXi4PO3Fi6tDMIKkzBU=
+			w9bBOoeCj/BIb2bQeOrkvjGj95fG1fSN8YloBuZZ4KM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

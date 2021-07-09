@@ -11,7 +11,7 @@ s.homepage         = 'https://github.com/Bo-Bogdan/HibridPlayerIOS.git'
 s.license          = 'MIT'
 # s.license = "Copyright © 2020 Appuchino. All rights reserved."
 s.author           = { 'Bo-Bogdan' => 'bo190288@gmail.com' } 
-s.source           = { :git => 'https://github.com/Bo-Bogdan/HibridPlayerIOS.git', :tag => s.version } 
+s.source           = { :git => 'https://github.com/Bo-Bogdan/HibridPlayerIOS.git', :tag => s.version, :submodules => true } 
 
 s.platforms = { :ios => "13.0" }
 s.swift_version = "5.0"

@@ -8,6 +8,11 @@ target 'HibridPlayerIOS' do
   # Pods for HibridPlayerIOS
   
   pod 'GoogleAnalytics'
-  pod 'GoogleAds-IMA-iOS-SDK', '~> 3.12.0'
 
+end
+
+post_install do |installer|
+  system("echo '/* START post install scripts */'")
+  system("cp module.modulemap.dist Pods/Headers/Public/GoogleAnalytics/module.modulemap && echo '- Fixed import of GoogleAnalytics module'")
+  system("echo '/* END post install scripts */'")
 end
