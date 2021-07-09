@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8754DD6126978F6B006DEAD9 /* HibridPlayerIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8754DD5F26978F6B006DEAD9 /* HibridPlayerIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B525CA042697F5200068A624 /* HibridStreamPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B525C9FD2697ECCB0068A624 /* HibridStreamPlayer.framework */; };
-		B525CA052697F5200068A624 /* HibridStreamPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B525C9FD2697ECCB0068A624 /* HibridStreamPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B525CA2A2697F9810068A624 /* HibridStreamPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B525CA282697F9750068A624 /* HibridStreamPlayer.framework */; };
+		B525CA2B2697F9810068A624 /* HibridStreamPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B525CA282697F9750068A624 /* HibridStreamPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B5FC22F3CC8BEA9819DE5C7F /* Pods_HibridPlayerIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F93E8E9A4A77C5D3F1C813 /* Pods_HibridPlayerIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B525CA052697F5200068A624 /* HibridStreamPlayer.framework in Embed Frameworks */,
+				B525CA2B2697F9810068A624 /* HibridStreamPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +33,7 @@
 		8754DD5F26978F6B006DEAD9 /* HibridPlayerIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HibridPlayerIOS.h; sourceTree = "<group>"; };
 		8754DD6026978F6B006DEAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F93E8E9A4A77C5D3F1C813 /* Pods_HibridPlayerIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HibridPlayerIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B525C9FD2697ECCB0068A624 /* HibridStreamPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HibridStreamPlayer.framework; sourceTree = "<group>"; };
+		B525CA282697F9750068A624 /* HibridStreamPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HibridStreamPlayer.framework; sourceTree = "<group>"; };
 		FA77D6C5DE3A14DCFEE3BFFC /* Pods-HibridPlayerIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HibridPlayerIOS.release.xcconfig"; path = "Target Support Files/Pods-HibridPlayerIOS/Pods-HibridPlayerIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FC22F3CC8BEA9819DE5C7F /* Pods_HibridPlayerIOS.framework in Frameworks */,
-				B525CA042697F5200068A624 /* HibridStreamPlayer.framework in Frameworks */,
+				B525CA2A2697F9810068A624 /* HibridStreamPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				8754DD5F26978F6B006DEAD9 /* HibridPlayerIOS.h */,
+				B525CA282697F9750068A624 /* HibridStreamPlayer.framework */,
 				8754DD6026978F6B006DEAD9 /* Info.plist */,
-				B525C9FD2697ECCB0068A624 /* HibridStreamPlayer.framework */,
 			);
 			path = HibridPlayerIOS;
 			sourceTree = "<group>";
