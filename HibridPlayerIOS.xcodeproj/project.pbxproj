@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8754DD6126978F6B006DEAD9 /* HibridPlayerIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8754DD5F26978F6B006DEAD9 /* HibridPlayerIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8754DDB72698B01E006DEAD9 /* HibridStreamPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754DDB62698B01E006DEAD9 /* HibridStreamPlayer.framework */; };
+		8754DDB82698B0BD006DEAD9 /* HibridStreamPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754DDB62698B01E006DEAD9 /* HibridStreamPlayer.framework */; };
+		8754DDB92698B0BD006DEAD9 /* HibridStreamPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8754DDB62698B01E006DEAD9 /* HibridStreamPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B5FC22F3CC8BEA9819DE5C7F /* Pods_HibridPlayerIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F93E8E9A4A77C5D3F1C813 /* Pods_HibridPlayerIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +20,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				8754DDB92698B0BD006DEAD9 /* HibridStreamPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,7 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FC22F3CC8BEA9819DE5C7F /* Pods_HibridPlayerIOS.framework in Frameworks */,
-				8754DDB72698B01E006DEAD9 /* HibridStreamPlayer.framework in Frameworks */,
+				8754DDB82698B0BD006DEAD9 /* HibridStreamPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
