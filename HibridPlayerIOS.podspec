@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name             = 'HibridPlayerIOS'  
-s.version          = '0.0.6'  
+s.version          = '0.0.7'  
 s.summary          = 'HibridPlayerIOS' 
 # s.description      = <<-DESC 
 # 			"HibridPlayerIOS"
@@ -25,7 +25,7 @@ s.preserve_paths = '**/HibridStreamPlayer.framework', '**/*.modulemap'
 
 s.static_framework = true
 s.requires_arc = true
-s.dependency     'GoogleAnalytics'
+# s.dependency     'GoogleAnalytics'
 s.dependency     'GoogleAds-IMA-iOS-SDK', '~> 3.12.0'
 
 end
