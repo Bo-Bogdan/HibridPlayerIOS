@@ -3,7 +3,6 @@
 //  HibridPlayerIOS
 //
 //  Created by Bogdan T on 08.07.2021.
-//
 
 #import <Foundation/Foundation.h>
 
